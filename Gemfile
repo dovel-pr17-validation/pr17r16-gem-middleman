@@ -7,7 +7,7 @@ gem 'yard', '~> 0.9.38', require: false
 # Test tools
 # Aruba 3 runs each scenario in a uniquely named directory, which leaks into
 # Sass source maps and changes the asset hashes the features assert on
-gem 'aruba', '~> 2.2', require: false
+gem 'aruba', '~> 3.0', require: false
 gem 'capybara', require: false
 gem 'cucumber', require: false
 gem 'rspec', require: false
